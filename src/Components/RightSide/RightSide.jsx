@@ -19,8 +19,8 @@ const RightSide = () => {
         <TrendCard />
         <button className='button r-button'
         onClick={()=>setModelOpened(true)}>
-            <ShareModel modelOpened={modelOpened} setModelOpened={setModelOpened}/>
           Share</button>
+          <ShareModel modelOpened={modelOpened} setModelOpened={setModelOpened}/>
     </div>
   )
 }
